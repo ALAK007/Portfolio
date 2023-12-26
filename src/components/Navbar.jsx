@@ -6,6 +6,7 @@ import logo from '../assets/logo.png';
 import {Link} from 'react-scroll';
 
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -100,25 +101,25 @@ const Navbar = () => {
         <ul>
           <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-85px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-gray-300'
-             href="https://www.linkedin.com/in/ayoub-lakhdar-756464142/">
+             href="https://www.linkedin.com/in/ayoub-lakhdar-756464142/" target="_blank">
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-85px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-             href="https://github.com/ALAK007">
+             href="https://github.com/ALAK007" target="_blank">
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-85px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-             href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+             href="mailto:lakhdarayoub515@gmail.com" target="_blank">
               Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-85px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-             href="/">
+             href="/assets/Resume.pdf" target="_blank">
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
